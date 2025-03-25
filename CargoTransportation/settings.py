@@ -48,6 +48,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://cargotransportation-master-production.up.railway.app',
+]
+
 ROOT_URLCONF = 'CargoTransportation.urls'
 
 TEMPLATES = [
